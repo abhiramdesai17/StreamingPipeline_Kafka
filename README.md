@@ -36,7 +36,7 @@ Sample message schema produced by the data generator:
   "device_id": "593-47-5928",
   "timestamp": "1694479551"
 }
-
+```
 
 ## Kafka Consumer
 The Kafka consumer is implemented in Python. It consumes messages from the user-login topic, processes them (e.g., filtering based on certain conditions), and produces the processed messages to a new topic processed-user-login.
@@ -54,7 +54,7 @@ Clone the repository and navigate to the project root directory.
 
 Build and start the Docker containers:
 
-docker-compose up --build
+`docker-compose up --build`
 
 This command will set up the local development environment with Kafka, Zookeeper, the data generator, and the Kafka consumer.
 
